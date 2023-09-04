@@ -91,6 +91,10 @@ margin-top: 5px;
 margin-bottom: 50px;
 }
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about{
@@ -98,4 +102,13 @@ margin-bottom: 50px;
     border-radius: 10px;
     margin: 130px 0;
     background-color: #d3f5d6;
+}
+
+.about-info-containe{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
 }
