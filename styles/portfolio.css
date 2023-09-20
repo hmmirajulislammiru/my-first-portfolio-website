@@ -123,29 +123,49 @@ main{
 
 .skills-container{
     display: flex;
-    gap: 24px;
+    gap: 25px;
 }
 .skills{
-    padding: 40px;
+    
+    padding: 45px;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 35px;
 background: #eef8ef;
 
-box-shadow: 7px 12px 43px 0px rgba(0, 0, 0, 0.14);
+box-shadow: 7px 12px 42px 0px rgba(0, 0, 0, 0.14);
     
 }
+
+.skillss{
+    
+    padding: 60px;
+    text-align: center;
+    border-radius: 38px;
+background: #eef8ef;
+
+box-shadow: 7px 12px 42px 0px rgba(0, 0, 0, 0.14);
+    
+}
+
 .skill-description{
     padding: 30px;
     background-color: #eef8ef;
 }
 
 .profile-pic{
-    width: 506px;
-height: 744px;
+    display: flex;
+    width: 500px;
+height: 500px;
 flex-shrink: 0;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
+/* resume section styles */
 
+.resume-column-title{
+    font-size: 26px;
+    font-weight: 600;
+    color: #000;
+}
     
    
