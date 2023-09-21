@@ -167,5 +167,35 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     font-weight: 600;
     color: #000;
 }
-    
-   
+
+.resume-container{
+    display: flex;
+}
+    .resume-container hr{
+     margin: 30px;
+    }
+
+   .resume-item-institute{
+    margin: 20px;
+    margin-top: 0px;
+   }
+   .btn-primaryy{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+background: #39DB4A;
+}
+
+.order-now{
+    text-align: center;
+    margin-top: 50px;
+ }
+
+ /* footer style */
+ .footer{
+    display: flex;
+    gap: 100px;
+    background-color: #c9ebcc;;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
