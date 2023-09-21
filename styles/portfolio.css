@@ -189,13 +189,14 @@ background: #39DB4A;
 .order-now{
     text-align: center;
     margin-top: 50px;
- }
+   }
 
  /* footer style */
- .footer{
+ footer{
     display: flex;
+    padding: 130px 200px;
+
     gap: 100px;
     background-color: #c9ebcc;;
     margin-top: 100px;
-    padding: 130px 200px;
 }
